@@ -1,0 +1,44 @@
+﻿body {
+}
+
+#field {
+    width: 40%;
+    height: 20%;
+    left: 25%;
+    top: 30%;
+    border: 1px solid black;
+}
+
+#field div {
+    position: absolute;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    background-size: 20px 20px;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,1);
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+td{
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial';
+    border-collapse: collapse;
+    font-size: 26px;
+}
+
+#middle-size{
+    background-color: indigo;
+    color: white;
+}
+
+table {
+    padding: 0px;
+}
+

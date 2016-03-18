@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css"/>
+</head>
+<body>
+<table>
+    <tr>
+        <td id="small-size" onclick="changeProperties(5, 8, 7, event)">Small field</td>
+        <td id="middle-size"onclick="changeProperties(13, 13, 29, event)">Middle field</td>
+        <td id="large-size" onclick="changeProperties(30, 20, 100, event)">Large field</td>
+        <td width="15%" style="border: none"></td>
+        <td id="bomb_number" style="border: none">29</td>
+        <td style="border: none"><img src="Images/bomb.png" width="35px" height="30px" /></td>
+        
+    </tr>
+</table>
+<div id="field"></div>
+
+<script src="Scripts/view.js"></script>
+    <script src="Scripts/model.js"></script>
+   <script src="Scripts/controller.js"></script>
+</body>
+</html>
